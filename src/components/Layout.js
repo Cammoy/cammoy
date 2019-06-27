@@ -46,6 +46,32 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Navbar />
       <div>{children}</div>
+
+      <div class="col-sm-5">
+        <div class="headerPoints">
+          <div class="headerPoints__layers">
+            Solution Design <span class="bounce-it"> <i class="fa fa-angle-double-down" aria-hidden="true"></i></span>
+            <div class="headerPoints__layers__overlay">
+              Nascetur a suspendisse aenean commodo tortor congue himenaeos augue hac dis morbi per volutpat.
+            </div>
+          </div>
+
+          <div class="headerPoints__layers">
+            <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+            Implementation <span class="bounce-it"> </span>
+            <div class="headerPoints__layers__overlay">
+              Nascetur a suspendisse aenean commodo tortor congue himenaeos augue hac dis morbi per volutpat.
+            </div>
+          </div>
+
+          <div class="headerPoints__layers">
+            Optimisation <span class="bounce-it"> <i class="fa fa-angle-double-down" aria-hidden="true"></i></span>
+            <div class="headerPoints__layers__overlay">
+              Nascetur a suspendisse aenean commodo tortor congue himenaeos augue hac dis morbi per volutpat.
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   )
