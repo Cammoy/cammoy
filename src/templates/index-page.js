@@ -28,7 +28,6 @@ export const IndexPageTemplate = ({
     >
       <Layers title={title} subheading={subheading} />
     </div>
-    </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
