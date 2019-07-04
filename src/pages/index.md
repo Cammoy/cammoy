@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Solution . Implementation . Optimisation
-image: /img/header.jpg
+image: /img/header.webp
 heading: Media Solution with an exceptional difference.
 subheading: Delivering above and beyond expectations.
 mainpitch:
