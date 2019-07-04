@@ -138,3 +138,21 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+.navbar-top:after
+  content: ""
+  position: absolute
+  left: 0
+  right: 0
+  bottom: -1px
+  height: 2px
+  width: 100%
+  border: 0
+  background-image: -webkit-gradient(linear, left top, right top, from(#111111), to(#111111), color-stop(50%, #111111), color-stop(50%, #15b1da))
+  background-image: -webkit-linear-gradient(left, #111111, #111111 50%, #15b1da 50%, #111111)
+  background-image: -moz-linear-gradient(left, #111111, #111111 50%, #15b1da 50%, #111111)
+  background-image: -ms-linear-gradient(left, #111111, #111111 50%, #15b1da 50%, #111111)
+  background-image: -o-linear-gradient(left, #111111, #111111 50%, #15b1da 50%, #111111)
+  -webkit-background-size: 24px 100%
+  -moz-background-size: 24px 100%
+  background-size: 24px 100%
