@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import Layers from '../components/Layers/Layers'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -25,42 +26,50 @@ export const IndexPageTemplate = ({
         backgroundAttachment: `fixed`,
       }}
     >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+      
+      <div class="columns">
+        <div className="column is-three-fifths">
+          <Layers />
+        </div>
+        <div className="column is-two-fifths">
+          <div
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
+            display: 'flex',
+            height: '150px',
             lineHeight: '1',
-            padding: '0.25em',
+            justifyContent: 'space-around',
+            alignItems: 'left',
+            flexDirection: 'column',
           }}
         >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              boxShadow:
+                'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+              backgroundColor: 'rgb(255, 68, 0)',
+              color: 'white',
+              lineHeight: '1',
+              padding: '0.25em',
+            }}
+          >
+            {title}
+          </h1>
+          <h3
+            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+            style={{
+              boxShadow:
+                'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+              backgroundColor: 'rgb(255, 68, 0)',
+              color: 'white',
+              lineHeight: '1',
+              padding: '0.25em',
+            }}
+          >
+            {subheading}
+          </h3>
+        </div>
+      </div>
       </div>
     </div>
     <section className="section section--gradient">
