@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import "./style.scss"
+import "./styles.scss"
 
 const Layer = props => (
     <div className="col-sm-5">
