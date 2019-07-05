@@ -1,12 +1,12 @@
 import React from 'react'
 import "./styles.scss"
 
-const Layer = ({ title, subheading }) => (
+const Layer = ({ title, welcome }) => (
     <div className="container">
         <div className="columns">
             <div className="column is-two-fifths">
                 <div className="headerPoints">
-                    
+
                     <div className="headerPoints__layers">
                         Solution Design <span className="bounce-it"> <i className="fa fa-angle-double-down" aria-hidden="true"></i></span>
                         <div className="headerPoints__layers__overlay">
@@ -32,9 +32,9 @@ const Layer = ({ title, subheading }) => (
                 </div>
             </div>
 
-            <div className="column is-three-fifths">
-                <h1>{title}</h1>
-                <h2>{subheading}</h2>
+            <div className="column is-three-fifths welcome">
+                <h1 className="is-size-1 has-text-info">{title}</h1>
+                <p className="has-text-white">{welcome}</p>
             </div>
         </div>
     </div>
