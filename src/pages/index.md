@@ -7,7 +7,7 @@ welcome: >-
   We take pride in the quality of work produced whilst keeping abreast with the
   latest web technologies and emerging trends, optimising Development workflow
   and client communication to ensure our project is delivered on time and you
-  are aware of your project status.
+  are aware of your project status. 
 mainpitch:
   title: Why Cammoy
   description: >
